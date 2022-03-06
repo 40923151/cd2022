@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H1">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -139,8 +139,58 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <a href='分組名單.html'>Next</a> >> 分組名單<br /><h1>About</h1>
-<br /> <a href='分組名單.html'>Next</a> >> 分組名單</div>
+    <div id="tipue_search_content">分組名單 << <a href='分組名單.html'>Previous</a> <a href='組員名單 txt.html'>Next</a> >> 組員名單 txt<br /><h1>程式碼</h1>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false"># cd2022_gen_html.py
+studList = "cd2022_list.txt"
+courTitle = "cd2022"
+
+# group title initial
+grpTitle = studList[:6] + "-ag"
+
+# student Account and github Account as inputs
+def perWeb(s, g):
+    pSite = "&lt;a href=\"https://" + g + ".github.io/" + courTitle + "\"&gt;" + s + " web&lt;/a&gt;"
+    print(pSite)
+
+def perRepo(s, g):
+    pSite = "&lt;a href=\"https://github.com/" + g + "/" + courTitle + "\"&gt;" + s + " repo&lt;/a&gt;"
+    print(pSite)
+    
+def grpWeb(s, g, ord):
+    pSite = "&lt;a href=\"https://" + g + ".github.io/" + grpTitle + str(ord) + "\"&gt;grp web&lt;/a&gt;"
+    print(pSite)
+    
+def grpRepo(s, g, ord):
+    pSite = "&lt;a href=\"https://github.com/" + g + "/" + grpTitle + str(ord) + "\"&gt;grp repo&lt;/a&gt;"
+    print(pSite)
+
+# open file, default is read mode, since txt content no chinese char
+# no encoding = "UTF-8" is needed
+with open(studList) as fh:
+    # readlines will read into the whole line and put into list format
+    # has \n at the end of each line
+    data = fh.readlines()
+
+grpCount = 0
+for i in range(len(data)):
+    # grpCount is the group order
+    grpCount = grpCount + 1
+    group = data[i].rstrip("\n").split("\t")
+    # use filter to remove vacant string element
+    # use [1:] to remove first element
+    group = list(filter(None, group))[1:]
+    print(grpTitle + str(grpCount) + "&lt;br /&gt;")
+    for j in range(0, len(group), 2):
+        # s is the student number
+        s = group[j]
+        # g is the github account
+        g = group[j+1]
+        perWeb(s, g)
+        print("|")
+        perRepo(s, g)
+        print("|")
+        print("&lt;br /&gt;")</pre>
+<br />分組名單 << <a href='分組名單.html'>Previous</a> <a href='組員名單 txt.html'>Next</a> >> 組員名單 txt</div>
         
     <!-- footer -->
       <div class="container">
