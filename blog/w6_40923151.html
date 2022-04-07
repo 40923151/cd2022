@@ -42,7 +42,7 @@
 
     <link href="./w6_40923151.html" rel="canonical" />
 
-        <meta name="description" content="呈現前五周的內容 test">
+        <meta name="description" content="呈現前五周的內容">
 
         <meta name="author" content="40923151">
 
@@ -54,12 +54,12 @@
 <!-- Open Graph -->
 <meta property="og:site_name" content="CMSimfly 網際內容管理"/>
 <meta property="og:title" content="2022 協同產品設計"/>
-<meta property="og:description" content="呈現前五周的內容 test"/>
+<meta property="og:description" content="呈現前五周的內容"/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content="./w6_40923151.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2022-03-30 00:00:00+08:00"/>
-<meta property="article:modified_time" content="2022-04-06 11:35:58+08:00"/>
+<meta property="article:modified_time" content="2022-04-07 23:22:16+08:00"/>
 <meta property="article:author" content="./author/40923151.html">
 <meta property="article:section" content="Misc"/>
 <meta property="article:tag" content="w6_40923151"/>
@@ -74,7 +74,7 @@
   "name": "2022 協同產品設計",
   "headline": "2022 協同產品設計",
   "datePublished": "2022-03-30 00:00:00+08:00",
-  "dateModified": "2022-04-06 11:35:58+08:00",
+  "dateModified": "2022-04-07 23:22:16+08:00",
   "author": {
     "@type": "Person",
     "name": "40923151",
@@ -82,7 +82,7 @@
   },
   "image": "./theme/images/post-bg.jpg",
   "url": "./w6_40923151.html",
-  "description": "呈現前五周的內容 test"
+  "description": "呈現前五周的內容"
 }
 </script>
 <script type="text/javascript" src="./../cmsimde/static/syntaxhighlighter/shCore.js"></script>
@@ -204,7 +204,7 @@ init_mathjax();
             | <time datetime="週三 30 三月 2022">週三 30 三月 2022</time>
         </span>
         <!-- TODO : Modified check -->
-            <span class="post-meta"> | Updated on 週三 06 四月 2022</span>
+            <span class="post-meta"> | Updated on 週四 07 四月 2022</span>
             <div class="post-cover cover" style="background-image: url('./theme/images/post-bg.jpg')">
       </div>
     </header>
@@ -224,14 +224,73 @@ init_mathjax();
         <article class="post">
         <div class="inner">
             <section class="post-content">
-                <p>呈現前五周的內容
-test</p>
+                <p>呈現前五周的內容</p>
 
 
 <h2>NX_video</h2>
-<p>第4部(基礎3D繪製)
-https://40923151.github.io/cd2022/downloads/NX_video/NX_video_4.mp4
-第11部(繪製圓形球體)
+<p>第4部(基礎3D繪製)</p>
+<!-- css and js for Wink3 -->
+<p><link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"></p>
+<script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"></script>
+<!-- 導入 winkVideoData 變數值 -->
+<script>
+var winkVideoData = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+"2": [
+      { type: "gotoframe", rect: { x: 820, y: 372, width: 60, height: 24 }, target: 3 },
+    ],
+    "31": [
+      { type: "gotoframe", rect: { x: 764, y: 495, width: 60, height: 24 }, target: 2 },
+      { type: "gotoframe", rect: { x: 848, y: 495, width: 60, height: 24 }, target: 32 },
+    ],
+    "93": [
+      { type: "gotoframe", rect: { x: 861, y: 574, width: 60, height: 24 }, target: 31 },
+      { type: "gotoframe", rect: { x: 945, y: 574, width: 60, height: 24 }, target: 94 },
+    ],
+    "105": [
+      { type: "gotoframe", rect: { x: 801, y: 579, width: 60, height: 24 }, target: 93 },
+      { type: "gotoframe", rect: { x: 885, y: 579, width: 60, height: 24 }, target: 106 },
+    ],
+    "120": [
+      { type: "gotoframe", rect: { x: 862, y: 544, width: 60, height: 24 }, target: 105 },
+      { type: "gotoframe", rect: { x: 946, y: 544, width: 60, height: 24 }, target: 121 },
+    ],
+    "141": [
+      { type: "gotoframe", rect: { x: 894, y: 563, width: 60, height: 24 }, target: 120 },
+      { type: "gotoframe", rect: { x: 978, y: 563, width: 60, height: 24 }, target: 142 },
+    ],
+    "163": [
+      { type: "gotoframe", rect: { x: 727, y: 575, width: 60, height: 24 }, target: 141 },
+      { type: "gotoframe", rect: { x: 811, y: 575, width: 60, height: 24 }, target: 164 },
+    ],
+    "176": [
+      { type: "gotoframe", rect: { x: 791, y: 501, width: 60, height: 24 }, target: 163 },
+      { type: "gotoframe", rect: { x: 875, y: 501, width: 60, height: 24 }, target: 177 },
+    ],
+    "193": [
+      { type: "gotoframe", rect: { x: 939, y: 414, width: 60, height: 24 }, target: 176 },
+    ],
+  },
+};
+</script>
+<!-- 將 mp4 檔案從 downloads 目錄取出播放 -->
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" controls="controls" data-dirname="./../cmsimde/static" data-varname="winkVideoData" height="630" muted="true" width="1080">
+<source src="./../downloads/NX_video/NX_video_4.mp4" type="video/mp4"></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>第11部(繪製圓形球體)
 https://40923151.github.io/cd2022/downloads/NX_video/NX_video_11.mp4
 第13部(繪製曲柄)
 https://40923151.github.io/cd2022/downloads/NX_video/NX_video_13.mp4
@@ -239,8 +298,6 @@ https://40923151.github.io/cd2022/downloads/NX_video/NX_video_13.mp4
 https://40923151.github.io/cd2022/downloads/NX_video/NX_video_23.mp4
 第36部(繪製金屬壓製薄板)
 https://40923151.github.io/cd2022/downloads/NX_video/NX_video_36.mp4</p>
-<h2>Flutter</h2>
-<p>Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps</p>
             </section>
 
             <section class="post-info">
