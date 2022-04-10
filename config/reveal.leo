@@ -18,8 +18,7 @@
 <v t="leo.20200818165413.1"><vh>body</vh>
 <v t="leo.20200818170041.1"><vh>reveal div</vh>
 <v t="leo.20200818170222.1"><vh>slides div</vh>
-<v t="leo.20200818170328.1"><vh>slide 1</vh></v>
-<v t="leo.20200818170535.1"><vh>slide4</vh></v>
+<v t="leo.20200818170535.1"><vh>slide1</vh></v>
 <v t="leo.20220410111016.1"><vh>slide 2</vh></v>
 <v t="leo.20200818170636.1"><vh>slide3</vh>
 <v t="leo.20200818170909.1"><vh>slide 3-1</vh></v>
@@ -171,21 +170,10 @@ vertical: body pane on the botton</t>
 &lt;div class="slides"&gt;
     @others
 &lt;/div&gt;</t>
-<t tx="leo.20200818170328.1">&lt;section&gt;
-    &lt;a href="https://revealjs.com"&gt;
-        &lt;img src="https://static.slid.es/reveal/logo-v1/reveal-white-text.svg" alt="reveal.js logo" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo"&gt;
-    &lt;/a&gt;
-    &lt;h3&gt;The HTML Presentation Framework&lt;/h3&gt;
-    &lt;p&gt;
-        &lt;small&gt;Created by &lt;a href="http://hakim.se"&gt;Hakim El Hattab&lt;/a&gt; and &lt;a href="https://github.com/hakimel/reveal.js/graphs/contributors"&gt;contributors&lt;/a&gt;&lt;/small&gt;
-    &lt;/p&gt;
-&lt;/section&gt;
-
-</t>
 <t tx="leo.20200818170535.1">&lt;section&gt;
-    &lt;h2&gt;Hello There&lt;/h2&gt;
+    &lt;h1&gt;40923151 cd2022&lt;/h1&gt;
     &lt;p&gt;
-        reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+        這裡是網站更新重點摘要
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -220,9 +208,9 @@ vertical: body pane on the botton</t>
     &lt;/a&gt;
 &lt;/section&gt;</t>
 <t tx="leo.20220410111016.1">&lt;section&gt;
-    &lt;h2&gt;test&lt;/h2&gt;
+    &lt;h2&gt;W7&lt;/h2&gt;
     &lt;p&gt;
-        reveal.js enables you to create beautiful interactive slide decks using HTML. This presentation will show you examples of what it can do.
+        使用 onshape 繪製圈圈叉叉的機械手臂，新增 blog wink
     &lt;/p&gt;
 &lt;/section&gt;
 
