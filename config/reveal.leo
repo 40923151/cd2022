@@ -171,7 +171,7 @@ vertical: body pane on the botton</t>
     @others
 &lt;/div&gt;</t>
 <t tx="leo.20200818170535.1">&lt;section&gt;
-    &lt;h1&gt;40923151 cd2022&lt;/h1&gt;
+    &lt;h2&gt;40923151 cd2022&lt;/h2&gt;
     &lt;p&gt;
         這裡是網站更新重點摘要
     &lt;/p&gt;
