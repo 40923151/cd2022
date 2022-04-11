@@ -57,7 +57,6 @@
 <v t="leo.20180115115910.1"><vh>2020</vh>
 <v t="leo.20180423103639.1"><vh>cd2022_w6 課程</vh>
 <v t="leo.20180423103656.1"><vh>@edit 20200813.md</vh></v>
-<v t="leo.20220411195728.1"><vh>W7</vh></v>
 </v>
 </v>
 </v>
@@ -89,24 +88,6 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20180115093726.1"></t>
 <t tx="leo.20180115115910.1"></t>
 <t tx="leo.20180423103639.1"></t>
-<t tx="leo.20220411195728.1">@language md
----
-Title: W7
-Date: 2022-03-30
-Category: Misc
-Tags: w7_40923151
-Slug: w7_40923151
-Author:40923151
----
-
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-onshape
-----
-[零件檔案]
-
-[零件檔案]:https://cad.onshape.com/documents/3eed82e1639b90c3b9bad9b4/w/6e79d0081fe0d6279fc86e19/e/8ba8ccf78deefb0f1b684c5b?renderMode=0&amp;uiState=624ef9f99103b76b18ead5d1</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
