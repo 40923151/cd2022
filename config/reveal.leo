@@ -225,7 +225,7 @@ vertical: body pane on the botton</t>
     流程:把 stl 檔匯入 coppliasim 接著把軸互相連接，最後把控制原始碼加進去                就完成了
     心得:模擬的部分跟上學期作的大致相同，所以沒什麼難度，但如果是要用程式控制尺寸，再自動組立，再加上自動模擬的話就還需要再多多研究
         &lt;small&gt;
-        &lt;a href="https://youtu.be/WuFGVqr6nk8"&gt;模擬影片&lt;/a&gt;&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;
+        &lt;a href="https://youtu.be/WuFGVqr6nk8"&gt;模擬影片&lt;/a&gt;、&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;
         &lt;small&gt;
     &lt;/p&gt;
 &lt;/section&gt;
