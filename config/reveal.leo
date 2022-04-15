@@ -19,9 +19,9 @@
 <v t="leo.20200818170041.1"><vh>reveal div</vh>
 <v t="leo.20200818170222.1"><vh>slides div</vh>
 <v t="leo.20200818170535.1"><vh>slide1</vh></v>
-<v t="leo.20220410111016.1"><vh>slide 2</vh></v>
-<v t="leo.20220415151805.1"><vh>slide 3</vh></v>
-<v t="leo.20200818170636.1"><vh>slide100</vh>
+<v t="leo.20220410111016.1"><vh>slide2</vh></v>
+<v t="leo.20220415151805.1"><vh>slide3</vh></v>
+<v t="leo.20200818170636.1"><vh>slide4</vh>
 <v t="leo.20200818170909.1"><vh>slide 3-1</vh></v>
 <v t="leo.20200818170953.1"><vh>slide 3-2</vh></v>
 <v t="leo.20200818171010.1"><vh>slide 3-3</vh></v>
