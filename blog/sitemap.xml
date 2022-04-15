@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2022-04-14T22:38:58-00:00</lastmod>
+<lastmod>2022-04-15T17:41:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2022-04-14T22:38:58-00:00</lastmod>
+<lastmod>2022-04-15T17:41:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2022-04-14T22:38:58-00:00</lastmod>
+<lastmod>2022-04-15T17:41:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2022-04-14T22:38:58-00:00</lastmod>
+<lastmod>2022-04-15T17:41:17-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2022-04-14T22:33:44+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./midterm.html.html</loc>
+<lastmod>2022-04-15T17:40:54+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./onshape_40923151.html</loc>
+<lastmod>2022-04-15T17:37:30+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -47,14 +61,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./w6_40923151.html</loc>
-<lastmod>2022-04-14T22:37:52+08:00</lastmod>
+<lastmod>2022-04-15T17:37:30+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2022-04-14T22:37:52+08:06</lastmod>
+<lastmod>2022-04-15T17:40:54+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/midtermhtml.html</loc>
+<lastmod>2022-04-15T17:40:54+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/onshape_40923151.html</loc>
+<lastmod>2022-04-15T17:37:30+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -68,14 +96,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/w6_40923151.html</loc>
-<lastmod>2022-04-14T22:37:52+08:06</lastmod>
+<lastmod>2022-04-15T17:37:30+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40923151.html</loc>
-<lastmod>2022-04-14T22:37:52+08:06</lastmod>
+<lastmod>2022-04-15T17:40:54+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
