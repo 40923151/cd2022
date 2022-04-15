@@ -228,7 +228,7 @@ vertical: body pane on the botton</t>
     &lt;/p&gt;
     &lt;p&gt;
         &lt;small&gt;
-        &lt;a href=""&gt;模擬檔案&lt;/a&gt;
+        &lt;a href="https://drive.google.com/file/d/15HpPN4hlqgvScbtD2z5loKftNaN3Dys1/view?usp=sharing"&gt;模擬檔案&lt;/a&gt;
         &lt;small&gt;
     &lt;/p&gt;
 &lt;/section&gt;
