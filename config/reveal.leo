@@ -12,19 +12,19 @@
 </v>
 <v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
 <v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
-<v t="leo.20200818165234.1"><vh>@clean index.html</vh>
-<v t="leo.20200818165301.1"><vh>html</vh>
-<v t="leo.20200818165438.1"><vh>head</vh></v>
-<v t="leo.20200818165413.1"><vh>body</vh>
-<v t="leo.20200818170041.1"><vh>reveal div</vh>
-<v t="leo.20200818170222.1"><vh>slides div</vh>
-<v t="leo.20200818170535.1"><vh>slide 1</vh></v>
-<v t="leo.20220410111016.1"><vh>slide 2</vh></v>
-<v t="leo.20220415151805.1"><vh>slide 3</vh></v>
-<v t="leo.20200818170636.1"><vh>slide 4</vh>
-<v t="leo.20200818170909.1"><vh>slide 4-1</vh></v>
-<v t="leo.20200818170953.1"><vh>slide 4-2</vh></v>
-<v t="leo.20200818171010.1"><vh>slide 4-3</vh></v>
+<v t="leo.20220314205802.1"><vh>@clean index.html</vh>
+<v t="leo.20220314205802.2"><vh>html</vh>
+<v t="leo.20220314205802.3"><vh>head</vh></v>
+<v t="leo.20220314205802.4"><vh>body</vh>
+<v t="leo.20220314205802.5"><vh>reveal div</vh>
+<v t="leo.20220314205802.6"><vh>slides div</vh>
+<v t="leo.20220314205802.7"><vh>slide 1</vh></v>
+<v t="leo.20220314205802.8"><vh>slide 2</vh></v>
+<v t="leo.20220417181626.1"><vh>slide 3</vh></v>
+<v t="leo.20220314205802.9"><vh>slide4</vh>
+<v t="leo.20220314205802.10"><vh>slide 3-1</vh></v>
+<v t="leo.20220314205802.11"><vh>slide 3-2</vh></v>
+<v t="leo.20220314205802.12"><vh>slide 3-3</vh></v>
 </v>
 </v>
 </v>
@@ -113,14 +113,61 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20200818165234.1">@language xml
+<t tx="leo.20220314205802.1">@language xml
 @tabwidth -4
-@others</t>
-<t tx="leo.20200818165301.1">&lt;!doctype html&gt;
+@others
+</t>
+<t tx="leo.20220314205802.10">&lt;section&gt;
+    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
+    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
+    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
+    &lt;br&gt;
+    &lt;a href="#" class="navigate-down"&gt;
+        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
+    &lt;/a&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20220314205802.11">&lt;section&gt;
+    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
+    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20220314205802.12">&lt;section&gt;
+    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
+    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
+    &lt;br&gt;
+    &lt;a href="#/2"&gt;
+        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
+    &lt;/a&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20220314205802.2">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
-&lt;/html&gt;</t>
-<t tx="leo.20200818165413.1">&lt;body&gt;
+&lt;/html&gt;
+</t>
+<t tx="leo.20220314205802.3">&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+
+    &lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
+
+    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
+    &lt;meta name="author" content="Hakim El Hattab"&gt;
+
+    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
+    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
+
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+
+    &lt;link rel="stylesheet" href="dist/reset.css"&gt;
+    &lt;link rel="stylesheet" href="dist/reveal.css"&gt;
+    &lt;link rel="stylesheet" href="dist/theme/black.css" id="theme"&gt;
+
+    &lt;!-- Theme used for syntax highlighting of code --&gt;
+    &lt;link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"&gt;
+&lt;/head&gt;
+</t>
+<t tx="leo.20220314205802.4">&lt;body&gt;
 @others
     &lt;script src="dist/reveal.js"&gt;&lt;/script&gt;
     &lt;script src="plugin/zoom/zoom.js"&gt;&lt;/script&gt;
@@ -143,35 +190,18 @@ vertical: body pane on the botton</t>
         });
 
     &lt;/script&gt;
-&lt;/body&gt;</t>
-<t tx="leo.20200818165438.1">&lt;head&gt;
-    &lt;meta charset="utf-8"&gt;
-
-    &lt;title&gt;reveal.js – The HTML Presentation Framework&lt;/title&gt;
-
-    &lt;meta name="description" content="A framework for easily creating beautiful presentations using HTML"&gt;
-    &lt;meta name="author" content="Hakim El Hattab"&gt;
-
-    &lt;meta name="apple-mobile-web-app-capable" content="yes"&gt;
-    &lt;meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"&gt;
-
-    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-
-    &lt;link rel="stylesheet" href="dist/reset.css"&gt;
-    &lt;link rel="stylesheet" href="dist/reveal.css"&gt;
-    &lt;link rel="stylesheet" href="dist/theme/black.css" id="theme"&gt;
-
-    &lt;!-- Theme used for syntax highlighting of code --&gt;
-    &lt;link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme"&gt;
-&lt;/head&gt;</t>
-<t tx="leo.20200818170041.1">&lt;div class="reveal"&gt;
+&lt;/body&gt;
+</t>
+<t tx="leo.20220314205802.5">&lt;div class="reveal"&gt;
     @others
-&lt;/div&gt;</t>
-<t tx="leo.20200818170222.1">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
+&lt;/div&gt;
+</t>
+<t tx="leo.20220314205802.6">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
     @others
-&lt;/div&gt;</t>
-<t tx="leo.20200818170535.1">&lt;section&gt;
+&lt;/div&gt;
+</t>
+<t tx="leo.20220314205802.7">&lt;section&gt;
     &lt;h2&gt;40923151 cd2022&lt;/h2&gt;
     &lt;p&gt;
         這裡是網站更新重點摘要
@@ -179,44 +209,23 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 </t>
-<t tx="leo.20200818170636.1">&lt;!-- Example of nested vertical slides --&gt;
-&lt;section&gt;
-    @others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20200818170909.1">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#" class="navigate-down"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20200818170953.1">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20200818171010.1">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#/2"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;</t>
-<t tx="leo.20220410111016.1">&lt;section&gt;
+<t tx="leo.20220314205802.8">&lt;section&gt;
     &lt;h2&gt;W7&lt;/h2&gt;
     &lt;p&gt;
         使用 onshape 繪製圈圈叉叉的機械手臂，新增 blog wink
     &lt;/p&gt;
 &lt;/section&gt;
 
+
+
 </t>
-<t tx="leo.20220415151805.1">&lt;section&gt;
+<t tx="leo.20220314205802.9">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section&gt;
+    @others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20220417181626.1">&lt;section&gt;
     &lt;h2&gt;W8&lt;/h2&gt;
     &lt;p&gt;
         把 uarm 的 stl 檔丟到 coppliasim 做動態模擬
