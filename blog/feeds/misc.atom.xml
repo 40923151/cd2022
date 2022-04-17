@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-15T17:40:54+08:00</updated><entry><title>coppliasim模擬</title><link href="./midterm.html.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:40:54+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./midterm.html.html</id><summary type="html">&lt;p&gt;coppliasim影片位置、模擬檔案位置&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-17T10:23:38+08:00</updated><entry><title>coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-17T10:23:38+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./midterm.html</id><summary type="html">&lt;p&gt;coppliasim影片位置、模擬檔案位置&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;coppliasim影片位置、模擬檔案位置&lt;/p&gt;
 
 
 &lt;h2&gt;coppliasim&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;youtube影片&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm.html"></category></entry><entry><title>圈圈叉叉手臂</title><link href="./onshape_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:37:30+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./onshape_40923151.html</id><summary type="html">&lt;p&gt;onshape連結&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;youtube影片&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>圈圈叉叉手臂</title><link href="./onshape_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:37:30+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./onshape_40923151.html</id><summary type="html">&lt;p&gt;onshape連結&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;onshape連結&lt;/p&gt;
 
 
