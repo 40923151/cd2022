@@ -21,11 +21,6 @@
 <v t="leo.20220314205802.7"><vh>slide 1</vh></v>
 <v t="leo.20220314205802.8"><vh>slide 2</vh></v>
 <v t="leo.20220417181626.1"><vh>slide 3</vh></v>
-<v t="leo.20220314205802.9"><vh>slide4</vh>
-<v t="leo.20220314205802.10"><vh>slide 3-1</vh></v>
-<v t="leo.20220314205802.11"><vh>slide 3-2</vh></v>
-<v t="leo.20220314205802.12"><vh>slide 3-3</vh></v>
-</v>
 </v>
 </v>
 </v>
@@ -117,30 +112,6 @@ vertical: body pane on the botton</t>
 @tabwidth -4
 @others
 </t>
-<t tx="leo.20220314205802.10">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#" class="navigate-down"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314205802.11">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20220314205802.12">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#/2"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;
-</t>
 <t tx="leo.20220314205802.2">&lt;!doctype html&gt;
 &lt;html lang="en"&gt;
 @others
@@ -217,12 +188,6 @@ vertical: body pane on the botton</t>
 &lt;/section&gt;
 
 
-
-</t>
-<t tx="leo.20220314205802.9">&lt;!-- Example of nested vertical slides --&gt;
-&lt;section&gt;
-    @others
-&lt;/section&gt;
 
 </t>
 <t tx="leo.20220417181626.1">&lt;section&gt;
