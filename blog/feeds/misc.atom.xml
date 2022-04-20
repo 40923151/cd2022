@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-17T18:15:42+08:00</updated><entry><title>coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-17T18:15:42+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-20T10:38:14+08:00</updated><entry><title>coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-17T18:15:42+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
 
 
 &lt;h2&gt;coppeliasim&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/WuFGVqr6nk8"&gt;youtube影片&lt;/a&gt;
-coppeliasim&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>圈圈叉叉手臂</title><link href="./onshape_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:37:30+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./onshape_40923151.html</id><summary type="html">&lt;p&gt;onshape連結&lt;/p&gt;
+coppeliasim&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>圈圈叉叉手臂</title><link href="./onshape_40923151_summary.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-20T10:38:14+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./onshape_40923151_summary.html</id><summary type="html">&lt;p&gt;onshape連結&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;onshape連結&lt;/p&gt;
 
 
 &lt;h2&gt;onshape&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/3eed82e1639b90c3b9bad9b4/w/6e79d0081fe0d6279fc86e19/e/8ba8ccf78deefb0f1b684c5b?renderMode=0&amp;amp;uiState=624ef9f99103b76b18ead5d1"&gt;零件檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="onshape_40923151"></category></entry><entry><title>w6</title><link href="./w6_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:37:30+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./w6_40923151.html</id><summary type="html">&lt;p&gt;前六週做的東西&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/3eed82e1639b90c3b9bad9b4/w/6e79d0081fe0d6279fc86e19/e/8ba8ccf78deefb0f1b684c5b?renderMode=0&amp;amp;uiState=624ef9f99103b76b18ead5d1"&gt;零件檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="onshape_40923151_summary"></category></entry><entry><title>w6</title><link href="./w6_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:37:30+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./w6_40923151.html</id><summary type="html">&lt;p&gt;前六週做的東西&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;前六週做的東西&lt;/p&gt;
 
 
