@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-27T20:35:36+08:00</updated><entry><title>w8 coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
-
-
-&lt;h2&gt;coppeliasim&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://youtu.be/WuFGVqr6nk8"&gt;youtube影片&lt;/a&gt;
-coppeliasim&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>w10</title><link href="./w10.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-04-27T20:35:36+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./w10.html</id><summary type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理 - Misc</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2022-04-27T20:41:10+08:00</updated><entry><title>w10</title><link href="./w10.html" rel="alternate"></link><published>2022-04-27T00:00:00+08:00</published><updated>2022-04-27T20:41:10+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-27:./w10.html</id><summary type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
 
 
@@ -136,7 +130,13 @@ var winkVideoData9 = {
 &lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;</content><category term="Misc"></category><category term="w10"></category></entry><entry><title>w7 圈圈叉叉手臂</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-03-31T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-31:./w7_summary.html</id><summary type="html">&lt;p&gt;圈圈叉叉手臂 onshape連結&lt;/p&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="w10"></category></entry><entry><title>w8 coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
+
+
+&lt;h2&gt;coppeliasim&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://youtu.be/WuFGVqr6nk8"&gt;youtube影片&lt;/a&gt;
+coppeliasim&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>w7 圈圈叉叉手臂</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-03-31T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-31:./w7_summary.html</id><summary type="html">&lt;p&gt;圈圈叉叉手臂 onshape連結&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;圈圈叉叉手臂 onshape連結&lt;/p&gt;
 
 
