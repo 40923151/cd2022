@@ -1,16 +1,147 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-04-26T19:38:36+08:00</updated><entry><title>w8 coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-04-26T19:38:36+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-04-27T20:35:36+08:00</updated><entry><title>w8 coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
 
 
 &lt;h2&gt;coppeliasim&lt;/h2&gt;
 &lt;p&gt;&lt;a href="https://youtu.be/WuFGVqr6nk8"&gt;youtube影片&lt;/a&gt;
-coppeliasim&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>w7 圈圈叉叉手臂</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-03-31T00:00:00+08:00</published><updated>2022-04-26T19:38:36+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-31:./w7_summary.html</id><summary type="html">&lt;p&gt;圈圈叉叉手臂 onshape連結&lt;/p&gt;
+coppeliasim&lt;a href="https://github.com/40923151/cd2022/tree/main/uarm"&gt;模擬檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="midterm"></category></entry><entry><title>w10</title><link href="./w10.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-04-27T20:35:36+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./w10.html</id><summary type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;w10_block_ui
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData8 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+    "2": [
+      { type: "gotoframe", rect: { x: 778, y: 547, width: 60, height: 24 }, target: 3 },
+    ],
+    "110": [
+      { type: "gotoframe", rect: { x: 735, y: 547, width: 60, height: 24 }, target: 2 },
+      { type: "gotoframe", rect: { x: 819, y: 547, width: 60, height: 24 }, target: 111 },
+    ],
+    "305": [
+      { type: "gotoframe", rect: { x: 321, y: 297, width: 60, height: 24 }, target: 110 },
+      { type: "gotoframe", rect: { x: 405, y: 297, width: 60, height: 24 }, target: 306 },
+    ],
+    "821": [
+      { type: "gotoframe", rect: { x: 675, y: 436, width: 60, height: 24 }, target: 305 },
+      { type: "gotoframe", rect: { x: 759, y: 436, width: 60, height: 24 }, target: 822 },
+    ],
+    "1416": [
+      { type: "gotoframe", rect: { x: 669, y: 420, width: 60, height: 24 }, target: 821 },
+      { type: "gotoframe", rect: { x: 753, y: 420, width: 60, height: 24 }, target: 1417 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData8" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w10/w10_block_ui.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;w10_nx_integ
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData9 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+"2": [
+      { type: "gotoframe", rect: { x: 568, y: 523, width: 60, height: 24 }, target: 3 },
+    ],
+    "53": [
+      { type: "gotoframe", rect: { x: 682, y: 524, width: 60, height: 24 }, target: 54 },
+      { type: "gotoframe", rect: { x: 603, y: 524, width: 60, height: 24 }, target: 2 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData9" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w10/w10_nx_integ.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;w10_ssh
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData9 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {"2": [
+      { type: "gotoframe", rect: { x: 478, y: 527, width: 60, height: 24 }, target: 3 },
+    ],
+    "232": [
+      { type: "gotoframe", rect: { x: 683, y: 456, width: 60, height: 24 }, target: 2 },
+      { type: "gotoframe", rect: { x: 799, y: 456, width: 60, height: 24 }, target: 233 },
+    ],
+    "341": [
+      { type: "gotoframe", rect: { x: 789, y: 194, width: 60, height: 24 }, target: 342 },
+      { type: "gotoframe", rect: { x: 673, y: 194, width: 60, height: 24 }, target: 232 },
+    ],
+    "354": [
+      { type: "gotoframe", rect: { x: 605, y: 316, width: 60, height: 24 }, target: 355 },
+      { type: "gotoframe", rect: { x: 489, y: 316, width: 60, height: 24 }, target: 341 },
+    ],
+    "372": [
+      { type: "gotoframe", rect: { x: 672, y: 351, width: 60, height: 24 }, target: 373 },
+      { type: "gotoframe", rect: { x: 556, y: 351, width: 60, height: 24 }, target: 354 },
+    ],
+    "461": [
+      { type: "gotoframe", rect: { x: 546, y: 373, width: 60, height: 24 }, target: 462 },
+      { type: "gotoframe", rect: { x: 430, y: 373, width: 60, height: 24 }, target: 372 },
+    ],
+    "483": [
+      { type: "gotoframe", rect: { x: 682, y: 406, width: 60, height: 24 }, target: 484 },
+      { type: "gotoframe", rect: { x: 566, y: 406, width: 60, height: 24 }, target: 461 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData9" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w10/w10_ssh.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="w10"></category></entry><entry><title>w7 圈圈叉叉手臂</title><link href="./w7_summary.html" rel="alternate"></link><published>2022-03-31T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-31:./w7_summary.html</id><summary type="html">&lt;p&gt;圈圈叉叉手臂 onshape連結&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;圈圈叉叉手臂 onshape連結&lt;/p&gt;
 
 
 &lt;h2&gt;onshape&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/3eed82e1639b90c3b9bad9b4/w/6e79d0081fe0d6279fc86e19/e/8ba8ccf78deefb0f1b684c5b?renderMode=0&amp;amp;uiState=624ef9f99103b76b18ead5d1"&gt;零件檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="w7_summary"></category></entry><entry><title>w6</title><link href="./w6_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-15T17:37:30+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./w6_40923151.html</id><summary type="html">&lt;p&gt;前六週做的東西&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/3eed82e1639b90c3b9bad9b4/w/6e79d0081fe0d6279fc86e19/e/8ba8ccf78deefb0f1b684c5b?renderMode=0&amp;amp;uiState=624ef9f99103b76b18ead5d1"&gt;零件檔案&lt;/a&gt;&lt;/p&gt;</content><category term="Misc"></category><category term="w7_summary"></category></entry><entry><title>w6</title><link href="./w6_40923151.html" rel="alternate"></link><published>2022-03-30T00:00:00+08:00</published><updated>2022-04-27T11:15:12+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-03-30:./w6_40923151.html</id><summary type="html">&lt;p&gt;前六週做的東西&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;前六週做的東西&lt;/p&gt;
 
 
