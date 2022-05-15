@@ -1,248 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-05-15T20:14:40+08:00</updated><entry><title>w10</title><link href="./w10_block_ui.html" rel="alternate"></link><published>2022-04-27T00:00:00+08:00</published><updated>2022-05-08T21:52:34+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-27:./w10_block_ui.html</id><summary type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
-
-
-&lt;hr&gt;
-&lt;p&gt;w10_block_ui
-&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-var winkVideoData8 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-    "2": [
-      { type: "gotoframe", rect: { x: 778, y: 547, width: 60, height: 24 }, target: 3 },
-    ],
-    "110": [
-      { type: "gotoframe", rect: { x: 735, y: 547, width: 60, height: 24 }, target: 2 },
-      { type: "gotoframe", rect: { x: 819, y: 547, width: 60, height: 24 }, target: 111 },
-    ],
-    "305": [
-      { type: "gotoframe", rect: { x: 321, y: 297, width: 60, height: 24 }, target: 110 },
-      { type: "gotoframe", rect: { x: 405, y: 297, width: 60, height: 24 }, target: 306 },
-    ],
-    "821": [
-      { type: "gotoframe", rect: { x: 675, y: 436, width: 60, height: 24 }, target: 305 },
-      { type: "gotoframe", rect: { x: 759, y: 436, width: 60, height: 24 }, target: 822 },
-    ],
-    "1416": [
-      { type: "gotoframe", rect: { x: 669, y: 420, width: 60, height: 24 }, target: 821 },
-      { type: "gotoframe", rect: { x: 753, y: 420, width: 60, height: 24 }, target: 1417 },
-    ],
-  },
-};
-&lt;/script&gt;
-&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData8" loop="loop" muted="" playsinline=""&gt;
-&lt;source src="./../downloads/w10/w10_block_ui.mp4" type="video/mp4" /&gt;&lt;/video&gt;
-&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
-&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;w10_nx_integ
-&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-var winkVideoData9 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {
-"2": [
-      { type: "gotoframe", rect: { x: 568, y: 523, width: 60, height: 24 }, target: 3 },
-    ],
-    "53": [
-      { type: "gotoframe", rect: { x: 682, y: 524, width: 60, height: 24 }, target: 54 },
-      { type: "gotoframe", rect: { x: 603, y: 524, width: 60, height: 24 }, target: 2 },
-    ],
-  },
-};
-&lt;/script&gt;
-&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData9" loop="loop" muted="" playsinline=""&gt;
-&lt;source src="./../downloads/w10/w10_nx_integ.mp4" type="video/mp4" /&gt;&lt;/video&gt;
-&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
-&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;w10_ssh
-&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-var winkVideoData9 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: {"2": [
-      { type: "gotoframe", rect: { x: 478, y: 527, width: 60, height: 24 }, target: 3 },
-    ],
-    "232": [
-      { type: "gotoframe", rect: { x: 683, y: 456, width: 60, height: 24 }, target: 2 },
-      { type: "gotoframe", rect: { x: 799, y: 456, width: 60, height: 24 }, target: 233 },
-    ],
-    "341": [
-      { type: "gotoframe", rect: { x: 789, y: 194, width: 60, height: 24 }, target: 342 },
-      { type: "gotoframe", rect: { x: 673, y: 194, width: 60, height: 24 }, target: 232 },
-    ],
-    "354": [
-      { type: "gotoframe", rect: { x: 605, y: 316, width: 60, height: 24 }, target: 355 },
-      { type: "gotoframe", rect: { x: 489, y: 316, width: 60, height: 24 }, target: 341 },
-    ],
-    "372": [
-      { type: "gotoframe", rect: { x: 672, y: 351, width: 60, height: 24 }, target: 373 },
-      { type: "gotoframe", rect: { x: 556, y: 351, width: 60, height: 24 }, target: 354 },
-    ],
-    "461": [
-      { type: "gotoframe", rect: { x: 546, y: 373, width: 60, height: 24 }, target: 462 },
-      { type: "gotoframe", rect: { x: 430, y: 373, width: 60, height: 24 }, target: 372 },
-    ],
-    "483": [
-      { type: "gotoframe", rect: { x: 682, y: 406, width: 60, height: 24 }, target: 484 },
-      { type: "gotoframe", rect: { x: 566, y: 406, width: 60, height: 24 }, target: 461 },
-    ],
-  },
-};
-&lt;/script&gt;
-&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData9" loop="loop" muted="" playsinline=""&gt;
-&lt;source src="./../downloads/w10/w10_ssh.mp4" type="video/mp4" /&gt;&lt;/video&gt;
-&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
-&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;</content><category term="Misc"></category><category term="w10_block_ui"></category></entry><entry><title>w11</title><link href="./w11.html" rel="alternate"></link><published>2022-04-27T00:00:00+08:00</published><updated>2022-05-15T20:14:40+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-27:./w11.html</id><summary type="html">&lt;p&gt;w11功課&lt;/p&gt;
-</summary><content type="html">&lt;p&gt;w11功課&lt;/p&gt;
-
-
-&lt;p&gt;大組協同流程wink
-把 stl 檔匯入 coppeliasim轉成 xml 檔流程&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;大組協同流程
-&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-var winkVideoData10 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: { "2": [
-      { type: "gotoframe", rect: { x: 890, y: 484, width: 60, height: 24 }, target: 3 },
-    ],
-    "7": [
-      { type: "gotoframe", rect: { x: 478, y: 546, width: 60, height: 24 }, target: 8 },
-      { type: "gotoframe", rect: { x: 382, y: 546, width: 60, height: 24 }, target: 2 },
-    ],
-    "12": [
-      { type: "gotoframe", rect: { x: 626, y: 326, width: 60, height: 24 }, target: 13 },
-      { type: "gotoframe", rect: { x: 530, y: 326, width: 60, height: 24 }, target: 7 },
-    ],
-    "17": [
-      { type: "gotoframe", rect: { x: 838, y: 315, width: 60, height: 24 }, target: 18 },
-      { type: "gotoframe", rect: { x: 742, y: 315, width: 60, height: 24 }, target: 12 },
-    ],
-    "22": [
-      { type: "gotoframe", rect: { x: 674, y: 623, width: 60, height: 24 }, target: 23 },
-      { type: "gotoframe", rect: { x: 578, y: 623, width: 60, height: 24 }, target: 17 },
-    ],
-    "27": [
-      { type: "gotoframe", rect: { x: 1028, y: 381, width: 60, height: 24 }, target: 28 },
-      { type: "gotoframe", rect: { x: 932, y: 381, width: 60, height: 24 }, target: 22 },
-    ],
-    "32": [
-      { type: "gotoframe", rect: { x: 1029, y: 452, width: 60, height: 24 }, target: 33 },
-      { type: "gotoframe", rect: { x: 933, y: 452, width: 60, height: 24 }, target: 27 },
-    ],
-    "37": [
-      { type: "gotoframe", rect: { x: 975, y: 578, width: 60, height: 24 }, target: 32 },
-    ],
-  },
-};
-&lt;/script&gt;
-&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1280" height="720" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData10" loop="loop" muted="" playsinline=""&gt;
-&lt;source src="./../downloads/w11/w11_pull_request.mp4" type="video/mp4" /&gt;&lt;/video&gt;
-&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
-&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;把 stl 檔匯入 coppeliasim
-轉成 xml 檔
-流程如下
-&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
-&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-var winkVideoData11 = {
-  dataVersion: 1,
-  frameRate: 10,
-  buttonFrameLength: 5,
-  buttonFrameOffset: 2,
-  frameStops: { "2": [
-      { type: "gotoframe", rect: { x: 864, y: 525, width: 60, height: 24 }, target: 3 },
-    ],
-    "7": [
-      { type: "gotoframe", rect: { x: 523, y: 282, width: 60, height: 24 }, target: 8 },
-      { type: "gotoframe", rect: { x: 430, y: 282, width: 60, height: 24 }, target: 2 },
-    ],
-    "12": [
-      { type: "gotoframe", rect: { x: 1041, y: 590, width: 60, height: 24 }, target: 13 },
-      { type: "gotoframe", rect: { x: 948, y: 590, width: 60, height: 24 }, target: 7 },
-    ],
-    "17": [
-      { type: "gotoframe", rect: { x: 537, y: 266, width: 60, height: 24 }, target: 18 },
-      { type: "gotoframe", rect: { x: 444, y: 266, width: 60, height: 24 }, target: 12 },
-    ],
-    "22": [
-      { type: "gotoframe", rect: { x: 977, y: 566, width: 60, height: 24 }, target: 23 },
-      { type: "gotoframe", rect: { x: 884, y: 566, width: 60, height: 24 }, target: 17 },
-    ],
-    "27": [
-      { type: "gotoframe", rect: { x: 784, y: 379, width: 60, height: 24 }, target: 28 },
-      { type: "gotoframe", rect: { x: 691, y: 379, width: 60, height: 24 }, target: 22 },
-    ],
-    "32": [
-      { type: "gotoframe", rect: { x: 881, y: 431, width: 60, height: 24 }, target: 27 },
-    ],
-  },
-};
-&lt;/script&gt;
-&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1280" height="720" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData11" loop="loop" muted="" playsinline=""&gt;
-&lt;source src="./../downloads/w11/xml.mp4" type="video/mp4" /&gt;&lt;/video&gt;
-&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
-&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
-&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;</content><category term="Misc"></category><category term="w11"></category></entry><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2022-04-27T00:00:00+08:00</published><updated>2022-05-15T20:14:40+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-27:./w12.html</id><summary type="html">&lt;p&gt;w12功課&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>CMSimfly 網際內容管理</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-05-15T20:19:18+08:00</updated><entry><title>w12</title><link href="./w12.html" rel="alternate"></link><published>2022-05-11T00:00:00+08:00</published><updated>2022-05-15T20:19:18+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-05-11:./w12.html</id><summary type="html">&lt;p&gt;w12功課&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;w12功課&lt;/p&gt;
 
 &lt;p&gt;分析uarm機械手臂的零件
@@ -276,7 +33,7 @@ var winkVideoData12 = {
 };
 &lt;/script&gt;
 &lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData12" loop="loop" muted="" playsinline=""&gt;
-&lt;source src="./../downloads/w12/w12_cadlab_startup" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;source src="./../downloads/w12/w12_cadlab_startup.mp4" type="video/mp4" /&gt;&lt;/video&gt;
 &lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
 &lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
 &lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
@@ -408,7 +165,250 @@ var winkVideoData13 = {
 &lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
-&lt;/div&gt;</content><category term="Misc"></category><category term="w12"></category></entry><entry><title>w8 coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-05-08T21:52:36+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="w12"></category></entry><entry><title>w11</title><link href="./w11.html" rel="alternate"></link><published>2022-05-04T00:00:00+08:00</published><updated>2022-05-15T20:19:18+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-05-04:./w11.html</id><summary type="html">&lt;p&gt;w11功課&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;w11功課&lt;/p&gt;
+
+
+&lt;p&gt;大組協同流程wink
+把 stl 檔匯入 coppeliasim轉成 xml 檔流程&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;大組協同流程
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData10 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: { "2": [
+      { type: "gotoframe", rect: { x: 890, y: 484, width: 60, height: 24 }, target: 3 },
+    ],
+    "7": [
+      { type: "gotoframe", rect: { x: 478, y: 546, width: 60, height: 24 }, target: 8 },
+      { type: "gotoframe", rect: { x: 382, y: 546, width: 60, height: 24 }, target: 2 },
+    ],
+    "12": [
+      { type: "gotoframe", rect: { x: 626, y: 326, width: 60, height: 24 }, target: 13 },
+      { type: "gotoframe", rect: { x: 530, y: 326, width: 60, height: 24 }, target: 7 },
+    ],
+    "17": [
+      { type: "gotoframe", rect: { x: 838, y: 315, width: 60, height: 24 }, target: 18 },
+      { type: "gotoframe", rect: { x: 742, y: 315, width: 60, height: 24 }, target: 12 },
+    ],
+    "22": [
+      { type: "gotoframe", rect: { x: 674, y: 623, width: 60, height: 24 }, target: 23 },
+      { type: "gotoframe", rect: { x: 578, y: 623, width: 60, height: 24 }, target: 17 },
+    ],
+    "27": [
+      { type: "gotoframe", rect: { x: 1028, y: 381, width: 60, height: 24 }, target: 28 },
+      { type: "gotoframe", rect: { x: 932, y: 381, width: 60, height: 24 }, target: 22 },
+    ],
+    "32": [
+      { type: "gotoframe", rect: { x: 1029, y: 452, width: 60, height: 24 }, target: 33 },
+      { type: "gotoframe", rect: { x: 933, y: 452, width: 60, height: 24 }, target: 27 },
+    ],
+    "37": [
+      { type: "gotoframe", rect: { x: 975, y: 578, width: 60, height: 24 }, target: 32 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1280" height="720" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData10" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w11/w11_pull_request.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;把 stl 檔匯入 coppeliasim
+轉成 xml 檔
+流程如下
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData11 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: { "2": [
+      { type: "gotoframe", rect: { x: 864, y: 525, width: 60, height: 24 }, target: 3 },
+    ],
+    "7": [
+      { type: "gotoframe", rect: { x: 523, y: 282, width: 60, height: 24 }, target: 8 },
+      { type: "gotoframe", rect: { x: 430, y: 282, width: 60, height: 24 }, target: 2 },
+    ],
+    "12": [
+      { type: "gotoframe", rect: { x: 1041, y: 590, width: 60, height: 24 }, target: 13 },
+      { type: "gotoframe", rect: { x: 948, y: 590, width: 60, height: 24 }, target: 7 },
+    ],
+    "17": [
+      { type: "gotoframe", rect: { x: 537, y: 266, width: 60, height: 24 }, target: 18 },
+      { type: "gotoframe", rect: { x: 444, y: 266, width: 60, height: 24 }, target: 12 },
+    ],
+    "22": [
+      { type: "gotoframe", rect: { x: 977, y: 566, width: 60, height: 24 }, target: 23 },
+      { type: "gotoframe", rect: { x: 884, y: 566, width: 60, height: 24 }, target: 17 },
+    ],
+    "27": [
+      { type: "gotoframe", rect: { x: 784, y: 379, width: 60, height: 24 }, target: 28 },
+      { type: "gotoframe", rect: { x: 691, y: 379, width: 60, height: 24 }, target: 22 },
+    ],
+    "32": [
+      { type: "gotoframe", rect: { x: 881, y: 431, width: 60, height: 24 }, target: 27 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1280" height="720" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData11" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w11/xml.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="w11"></category></entry><entry><title>w10</title><link href="./w10_block_ui.html" rel="alternate"></link><published>2022-04-27T00:00:00+08:00</published><updated>2022-05-08T21:52:34+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-27:./w10_block_ui.html</id><summary type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;wink 影片註解&lt;/p&gt;
+
+
+&lt;hr&gt;
+&lt;p&gt;w10_block_ui
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData8 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+    "2": [
+      { type: "gotoframe", rect: { x: 778, y: 547, width: 60, height: 24 }, target: 3 },
+    ],
+    "110": [
+      { type: "gotoframe", rect: { x: 735, y: 547, width: 60, height: 24 }, target: 2 },
+      { type: "gotoframe", rect: { x: 819, y: 547, width: 60, height: 24 }, target: 111 },
+    ],
+    "305": [
+      { type: "gotoframe", rect: { x: 321, y: 297, width: 60, height: 24 }, target: 110 },
+      { type: "gotoframe", rect: { x: 405, y: 297, width: 60, height: 24 }, target: 306 },
+    ],
+    "821": [
+      { type: "gotoframe", rect: { x: 675, y: 436, width: 60, height: 24 }, target: 305 },
+      { type: "gotoframe", rect: { x: 759, y: 436, width: 60, height: 24 }, target: 822 },
+    ],
+    "1416": [
+      { type: "gotoframe", rect: { x: 669, y: 420, width: 60, height: 24 }, target: 821 },
+      { type: "gotoframe", rect: { x: 753, y: 420, width: 60, height: 24 }, target: 1417 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData8" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w10/w10_block_ui.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;w10_nx_integ
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData9 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+"2": [
+      { type: "gotoframe", rect: { x: 568, y: 523, width: 60, height: 24 }, target: 3 },
+    ],
+    "53": [
+      { type: "gotoframe", rect: { x: 682, y: 524, width: 60, height: 24 }, target: 54 },
+      { type: "gotoframe", rect: { x: 603, y: 524, width: 60, height: 24 }, target: 2 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData9" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w10/w10_nx_integ.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;w10_ssh
+&lt;link rel="stylesheet" type="text/css" href="./../cmsimde/static/winkPlayer.css"&gt;&lt;/p&gt;
+&lt;script type="text/javascript" src="./../cmsimde/static/winkPlayer.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+var winkVideoData9 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {"2": [
+      { type: "gotoframe", rect: { x: 478, y: 527, width: 60, height: 24 }, target: 3 },
+    ],
+    "232": [
+      { type: "gotoframe", rect: { x: 683, y: 456, width: 60, height: 24 }, target: 2 },
+      { type: "gotoframe", rect: { x: 799, y: 456, width: 60, height: 24 }, target: 233 },
+    ],
+    "341": [
+      { type: "gotoframe", rect: { x: 789, y: 194, width: 60, height: 24 }, target: 342 },
+      { type: "gotoframe", rect: { x: 673, y: 194, width: 60, height: 24 }, target: 232 },
+    ],
+    "354": [
+      { type: "gotoframe", rect: { x: 605, y: 316, width: 60, height: 24 }, target: 355 },
+      { type: "gotoframe", rect: { x: 489, y: 316, width: 60, height: 24 }, target: 341 },
+    ],
+    "372": [
+      { type: "gotoframe", rect: { x: 672, y: 351, width: 60, height: 24 }, target: 373 },
+      { type: "gotoframe", rect: { x: 556, y: 351, width: 60, height: 24 }, target: 354 },
+    ],
+    "461": [
+      { type: "gotoframe", rect: { x: 546, y: 373, width: 60, height: 24 }, target: 462 },
+      { type: "gotoframe", rect: { x: 430, y: 373, width: 60, height: 24 }, target: 372 },
+    ],
+    "483": [
+      { type: "gotoframe", rect: { x: 682, y: 406, width: 60, height: 24 }, target: 484 },
+      { type: "gotoframe", rect: { x: 566, y: 406, width: 60, height: 24 }, target: 461 },
+    ],
+  },
+};
+&lt;/script&gt;
+&lt;div class="winkVideoContainerClass"&gt;&lt;video width="1008" height="630" autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData9" loop="loop" muted="" playsinline=""&gt;
+&lt;source src="./../downloads/w10/w10_ssh.mp4" type="video/mp4" /&gt;&lt;/video&gt;
+&lt;div class="winkVideoOverlayClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarClass"&gt;&lt;button class="winkVideoControlBarPlayButtonClass"&gt;&lt;/button&gt; &lt;button class="winkVideoControlBarPauseButtonClass"&gt;&lt;/button&gt;
+&lt;div class="winkVideoControlBarProgressLeftClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressEmptyMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressRightClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressFilledMiddleClass"&gt;&lt;/div&gt;
+&lt;div class="winkVideoControlBarProgressThumbClass"&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="winkVideoPlayOverlayClass"&gt;&lt;/div&gt;
+&lt;/div&gt;</content><category term="Misc"></category><category term="w10_block_ui"></category></entry><entry><title>w8 coppliasim模擬</title><link href="./midterm.html" rel="alternate"></link><published>2022-04-20T00:00:00+08:00</published><updated>2022-05-08T21:52:36+08:00</updated><author><name>40923151</name></author><id>tag:None,2022-04-20:./midterm.html</id><summary type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;coppeliasim影片位置、模擬檔案位置&lt;/p&gt;
 
 
