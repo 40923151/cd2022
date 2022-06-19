@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H3">
+<meta property="head" content="H2">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -139,13 +139,16 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">uarm_nx_tkinter_gui_control << <a href='uarm_nx_tkinter_gui_control.html'>Previous</a> <a href='w17.html'>Next</a> >> w17<br /><h1>Online Exam</h1>
-<p>轉動前</p>
-<p><img alt="" height="800" src="./../images/ZoomIt64_pfVG4K6nd5.png" width="1422"/></p>
-<p>各軸轉動5度後</p>
-<p><img alt="" height="800" src="./../images/ZoomIt64_929q3aeDyH.png" width="1422"/></p>
-<p>吸取方塊</p>
-<p><img alt="" height="800" src="./../images/ZoomIt64_zr55UEffVr.png" width="1422"/></p>
+    <div id="tipue_search_content">Online Exam << <a href='Online Exam.html'>Previous</a> <a href='分組名單.html'>Next</a> >> 分組名單<br /><h1>w17</h1>
+<p>目前可以按數字鍵控制夾爪到相對應的九宮格位置</p>
+<p>按鍵位置:</p>
+<p><span style="background-color: #ff0000; color: #ffffff;"> 數字1~9 </span></p>
+<p><span style="background-color: #ff0000; color: #ffffff;"> X 吸取方塊 </span> (有時會吸不到)</p>
+<p><span style="background-color: #ff0000; color: #ffffff;"> R 手臂回歸原點 </span></p>
+<p><img alt="" height="800" src="./../images/ZoomIt64_dBTddeMr0m.jpg" width="1422"/></p>
+<p>示範影片</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PvHZr5Mw5rM" width="560"></iframe></p>
+<p>程式如下</p>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">function sysCall_init()
     axis1=sim.getObject('./joint1')
     axis2=sim.getObject('./joint2')
@@ -249,21 +252,101 @@ function sysCall_actuation()
                  sim.setJointTargetPosition(axis2, rotation2)
                  sim.setJointTargetPosition(axis3, rotation3)
             end -- if x
+            if (auxiliaryData[1]==string.byte('r')) then 
+                 sim.setJointTargetPosition(axis1, 0)
+                 sim.setJointTargetPosition(axis2, 0)
+                 sim.setJointTargetPosition(axis3, 0)
+                 rotation1 = 0
+                 rotation2 = 0
+                 rotation3 = 0
+            end -- if r
+            if (auxiliaryData[1]==string.byte('3')) then 
+                 rotation1 = rotation1 - 35*deg
+                 rotation2 = rotation2 + 10*deg
+                 rotation3 = rotation3 - 2*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 3
+            if (auxiliaryData[1]==string.byte('2')) then 
+                 rotation1 = 0
+                 rotation2 = rotation2 + 10*deg
+                 rotation3 = rotation3 + 10*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 2
+            if (auxiliaryData[1]==string.byte('1')) then 
+                 rotation1 = rotation1 + 35*deg
+                 rotation2 = rotation2 + 10*deg
+                 rotation3 = rotation3 - 2*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 1
+            if (auxiliaryData[1]==string.byte('4')) then 
+                 rotation1 = rotation1 + 20*deg
+                 rotation2 = rotation2 - 20*deg
+                 rotation3 = rotation3 - 60*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 4
+            if (auxiliaryData[1]==string.byte('5')) then 
+                 rotation1 = 0
+                 rotation2 = rotation2 - 20*deg
+                 rotation3 = rotation3 - 50*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 5
+            if (auxiliaryData[1]==string.byte('6')) then 
+                 rotation1 = rotation1 - 20*deg
+                 rotation2 = rotation2 - 20*deg
+                 rotation3 = rotation3 - 60*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 6
+            if (auxiliaryData[1]==string.byte('7')) then 
+                 rotation1 = rotation1 + 15*deg
+                 rotation2 = rotation2 - 50*deg
+                 rotation3 = rotation3 - 240*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 7
+            if (auxiliaryData[1]==string.byte('8')) then 
+                 rotation1 = 0
+                 rotation2 = rotation2 - 50*deg
+                 rotation3 = rotation3 - 240*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 8
+            if (auxiliaryData[1]==string.byte('9')) then 
+                 rotation1 = rotation1 - 15*deg
+                 rotation2 = rotation2 - 50*deg
+                 rotation3 = rotation3 - 240*deg
+                 sim.setJointTargetPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if 9
        end  -- if
     message, auxiliaryData=sim.getSimulatorMessage()
     end -- while
 end -- function
-
+ 
 function sysCall_sensing() 
 --[[
     -- Read Proximity sensor (0= nothing detected, 1 = object detected)
     local res = sim.readProximitySensor(proximity)
-
+ 
     -- Check if possible to insert an new box
     if (sim.getSimulationTime()-T_last_inserted &gt; T_insert) and not hasStopped then
         insertBox()
     end
-
+ 
     -- If proximity sensor detects an object, stop the belt, stop inserting objects
     if res == 1 and not hasStopped then
         if boolList[1] then
@@ -274,19 +357,19 @@ function sysCall_sensing()
             local box = table.remove(boxList,1)
             local boxDummy = table.remove(boxDummyList,1)
             table.remove(boolList,1)
-
+ 
             sim.removeObject(box)
             sim.removeObject(boxDummy)
         end
     end
-
+ 
     -- If proximity sensor detects nothing and belt has stopped, start belt, continue inserting
     if res == 0 and hasStopped then
         sim.setScriptSimulationParameter(sim.handle_self,"conveyorBeltVelocity",beltSpeed)
         hasStopped = false
         T_last_inserted = sim.getSimulationTime()-deltaTime
     end
-    
+     
 ]]--
 end
 function sysCall_sensing()
@@ -361,10 +444,8 @@ function insertBox()
         table.insert(boolList,false)
     end
 end
--- See the user manual or the available code snippets for additional callback functions and details
-</pre>
-<p></p>
-<br />uarm_nx_tkinter_gui_control << <a href='uarm_nx_tkinter_gui_control.html'>Previous</a> <a href='w17.html'>Next</a> >> w17</div>
+-- See the user manual or the available code snippets for additional callback functions and details</pre>
+<p><br/><br/></p><br />Online Exam << <a href='Online Exam.html'>Previous</a> <a href='分組名單.html'>Next</a> >> 分組名單</div>
         
     <!-- footer -->
       <div class="container">
