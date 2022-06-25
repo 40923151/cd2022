@@ -2116,3 +2116,75 @@ var winkVideoData888 = {
 </div>
 <p>任務執行心得:</p>
 <p>對於nx的操作過程更加熟悉，像是零件的約束條件的限制或是組立的順序，對於uarm的細部零件也更加的了解。</p>
+<script>
+var winkVideoData777 = {
+  dataVersion: 1,
+  frameRate: 10,
+  buttonFrameLength: 5,
+  buttonFrameOffset: 2,
+  frameStops: {
+  },
+};
+</script>
+<div class="winkVideoContainerClass"><video autoplay="autoplay" class="winkVideoClass" data-dirname="./../cmsimde/static" data-varname="winkVideoData777" height="630" loop="loop" muted="" playsinline="" width="1008">
+<source src="./../downloads/w18/final_coppeliasim_wink.mp4" type="video/mp4"/></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>下面為python程式</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">function closeEventHandler(h)
+    sim.addLog(sim.verbosity_scriptinfos,'Window '..h..' is closing...')
+    simUI.hide(h)
+end
+ 
+function joint1_rotate(ui,id,newVal)
+    simUI.setLabelText(ui,3000,'theta1 set to '..newVal)
+    sim.setJointTargetPosition(joint1, newVal*deg)
+end
+ 
+function joint2_rotate(ui,id,newVal)
+    simUI.setLabelText(ui,3000,'theta2 set to '..newVal)
+    sim.setJointTargetPosition(joint2, newVal*deg)
+end
+ function joint3_rotate(ui,id,newVal)
+    simUI.setLabelText(ui,3000,'theta3 set to '..newVal)
+    sim.setJointTargetPosition(joint3, newVal*deg)
+end
+ 
+function sysCall_init()
+    -- do some initialization here
+    joint1 = sim.getObjectHandle('motor1')
+    joint2 = sim.getObjectHandle('motor2')
+    joint3 = sim.getObjectHandle('motor6')
+
+    
+    deg = math.pi/180
+    print(i)
+        xml = [[
+    &lt;ui closeable="true" on-close="closeEventHandler" resizable="true"&gt;
+        &lt;label text="This is a demo of the CustomUI plugin. Browse through the tabs below to explore all the widgets that can be created with the plugin." wordwrap="true" /&gt;
+        &lt;tabs&gt;
+            &lt;tab title="Numeric"&gt;a
+                &lt;label text="Sliders can be oriented horizontally or vertically, and have optional properties that can be set (in the XML) such as minimum and maximum value." wordwrap="true" /&gt;
+                &lt;label text="" id="3000" wordwrap="true" /&gt;
+                &lt;label text="theta1" /&gt; &lt;hslider tick-position="above" tick-interval="1"
+                minimum="-360" maximum="360" on-change="joint1_rotate" /&gt;
+                &lt;label text="theta2" /&gt; &lt;hslider tick-position="above" tick-interval="1"
+                minimum="-90" maximum="30" on-change="joint2_rotate" /&gt;
+                &lt;label text="theta3" /&gt; &lt;hslider tick-position="above" tick-interval="1"
+                minimum="-90" maximum="60" on-change="joint3_rotate" /&gt;
+            &lt;/tab&gt;
+        &lt;/tabs&gt;
+    &lt;/ui&gt;
+    ]]
+    ui=simUI.create(xml)
+     
+end</pre>
+<p><br/><br/></p>
